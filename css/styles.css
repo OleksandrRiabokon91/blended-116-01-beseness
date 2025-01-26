@@ -26,6 +26,7 @@ button {
   cursor: pointer;
   border: none;
   font-family: inherit;
+  border-radius: 4px;
 }
 
 button:hover,
@@ -50,6 +51,31 @@ button:focus {
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
+}
+/* total buttons hover stails */
+.wite-btn {
+  /* border-radius: 4px; */
+  background-color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.green-btn {
+  /* border-radius: 4px; */
+  background: #02897a;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.wite-btn:hover,
+.wite-btn:focus {
+  border-radius: 4px;
+  background-color: #ccfff2;
+  transform: scale(1.02);
+}
+
+.green-btn:hover,
+.green-btn:focus {
+  background-color: #00b33c;
+  transform: scale(1.02);
 }
 /* header */
 .header {
@@ -97,6 +123,14 @@ button:focus {
   padding: 26px 0;
   color: #22343d;
 }
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  /* border-radius: 4px;
+  background-color: #ccfff2; */
+  /* transform: scale(1.02); */
+  font-weight: 600;
+}
 .header-list-btns {
   display: flex;
   gap: 21px;
@@ -125,6 +159,8 @@ button:focus {
   font-size: 16px;
   color: #fff;
 }
+
+/* main content */
 .hero {
 }
 .hero-container {
@@ -172,6 +208,11 @@ button:focus {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #02897a;
+  justify-content: center;
+}
+
+.icon-triangle {
+  fill: #02897a;
 }
 .hero-image {
 }
@@ -190,14 +231,35 @@ button:focus {
   gap: 30px;
 }
 .feature-item {
+  flex: 1 1 calc((100% - 90px) / 4);
 }
-.feature-list-img {
-  margin-bottom: 20px;
+.feature-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 19px;
+  margin-bottom: 26px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.feature-list-img--- {
-  margin-bottom: 28px;
+.feature-box:hover {
+  transform: scale(1.2);
 }
-.feature-list-link {
+.feature-icon {
+  fill: #fff;
+}
+.cursor {
+  background-color: #02897a;
+}
+.weve {
+  background-color: #4d8dff;
+}
+.like {
+  background-color: #740a76;
+}
+.clock {
+  background-color: #f03e3d;
 }
 .feature-subtitle {
   font-weight: 600;
@@ -223,11 +285,12 @@ button:focus {
   color: #fff;
 }
 .management {
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .management-container {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 100px;
+
   gap: 84px;
   align-items: center;
 }
@@ -261,13 +324,13 @@ button:focus {
 }
 
 .support {
+  padding-bottom: 100px;
 }
 .support-container {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   gap: 84px;
-  margin-bottom: 100px;
 }
 .support-content {
   margin-right: 35px;
@@ -301,12 +364,12 @@ button:focus {
 }
 
 .collab {
+  padding-bottom: 150px;
 }
 .collab-container {
   display: flex;
   align-items: center;
   gap: 84px;
-  margin-bottom: 150px;
 }
 .collab-content {
 }
@@ -337,14 +400,12 @@ button:focus {
   margin-bottom: 12px;
 }
 
+/* qvik and eazy process */
+
 .process {
-  background-color: aquamarine;
+  padding-bottom: 100px;
 }
-.process-container {
-  max-width: 916px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-}
+
 .process-title {
   font-weight: 700;
   font-size: 32px;
@@ -360,17 +421,27 @@ button:focus {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-.process-list {
+.process-pozishen-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   gap: 100px;
-  /* column-gap: 25px; */
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.process-pozishen-item {
+}
+
+.process-list {
+}
+.process-item:first-child {
+  margin-bottom: 25px;
 }
 .process-item {
   display: flex;
   align-items: center;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.process-item:hover {
+  transform: scale(1.1);
 }
 
 .process-item-text {
@@ -382,8 +453,17 @@ button:focus {
   box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
   width: fit-content;
   border-radius: 25px;
+  margin: 0 9px;
 }
 .process-img {
 }
 .process-btn {
+  display: block;
+  margin: 0 auto;
+  min-width: 216px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
 }
