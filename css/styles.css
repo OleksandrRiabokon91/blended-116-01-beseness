@@ -49,20 +49,22 @@ button:focus {
   overflow: hidden;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
 }
-/* total buttons hover stails */
+
 .wite-btn {
-  /* border-radius: 4px; */
   background-color: #fff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .green-btn {
-  /* border-radius: 4px; */
   background: #02897a;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -79,7 +81,9 @@ button:focus {
   background-color: #00b33c;
   transform: scale(1.02);
 }
+
 /* header */
+
 .header {
 }
 .header-container {
@@ -128,9 +132,6 @@ button:focus {
 
 .nav-list-link:hover,
 .nav-list-link:focus {
-  /* border-radius: 4px;
-  background-color: #ccfff2; */
-  /* transform: scale(1.02); */
   font-weight: 600;
 }
 .header-list-btns {
@@ -163,6 +164,9 @@ button:focus {
 }
 
 /* main content */
+
+/* hero */
+
 .hero {
 }
 .hero-container {
@@ -218,6 +222,8 @@ button:focus {
 }
 .hero-image {
 }
+
+/* feature */
 
 .feature {
 }
@@ -288,6 +294,9 @@ button:focus {
   font-size: 16px;
   color: #fff;
 }
+
+/* management */
+
 .management {
   padding-top: 50px;
   padding-bottom: 100px;
@@ -326,6 +335,8 @@ button:focus {
 }
 .management-img {
 }
+
+/* support */
 
 .support {
   padding-bottom: 100px;
@@ -366,6 +377,8 @@ button:focus {
 }
 .support-img {
 }
+
+/* collab */
 
 .collab {
   padding-bottom: 150px;
@@ -472,6 +485,8 @@ button:focus {
   background-color: #02897a;
 }
 
+/* strategies */
+
 .strategies {
   margin-bottom: 171px;
 }
@@ -531,7 +546,10 @@ button:focus {
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
 }
 
+/* price */
+
 .price {
+  margin-bottom: 100px;
 }
 .price-title {
   text-align: center;
@@ -653,6 +671,10 @@ button:focus {
   background-color: #02897a;
   color: #fff;
 }
+
+.price-item:nth-child(2n + 0) .price-subtitle {
+  color: #fff;
+}
 .price-item:nth-child(2n + 0) .price-descr-zero {
   color: #fff;
 }
@@ -672,3 +694,116 @@ button:focus {
 .price-item:nth-child(2n + 0) .price-btn:hover {
   background-color: #ccfff2;
 }
+
+/* Clients review */
+
+.review {
+  margin-bottom: 100px;
+}
+
+.review-title {
+  display: block;
+  justify-self: center;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  color: #22343d;
+}
+.review-subtitle {
+  display: block;
+  justify-self: center;
+  margin-bottom: 40px;
+  max-width: 537px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+}
+.review-list {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.review-item {
+  position: relative;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 28px 26px;
+  width: calc((100%-128px) / 3);
+  min-height: 240px;
+}
+.review-stars-img {
+}
+.review-client-img {
+  position: absolute;
+  left: 26px;
+  bottom: 28px;
+}
+.review-client-text {
+  padding: 16px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+.review-client-name {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 64px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+.review-client-name-part {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #252b42;
+}
+
+/* Promo */
+
+.promo {
+  margin-bottom: 100px;
+}
+.promo-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 968px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 32px;
+  background-color: #02897a;
+}
+
+.promo-box {
+  padding: 49px 0 56px 51px;
+}
+.promo-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 151%;
+  color: #fff;
+  margin-bottom: 46px;
+}
+.promo-btn {
+  border-radius: 8px;
+  min-width: 150px;
+  height: 50px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+}
+.wite-btn {
+}
+.promo-img {
+}
+
+/* footer */

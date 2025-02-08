@@ -1,0 +1,265 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M768 85.333h-128c-56.58 0-110.844 22.476-150.848 62.484-40.009 40.008-62.485 94.27-62.485 150.849v128h-128v170.667h128v341.333h170.667v-341.333h128l42.667-170.667h-170.667v-128c0-11.316 4.497-22.168 12.497-30.17s18.854-12.497 30.17-12.497h128v-170.667z"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "facebook"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        }
+      ],
+      "properties": {
+        "order": 3,
+        "id": 6,
+        "name": "facebook",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M725.333 85.333h-426.667c-117.821 0-213.333 95.513-213.333 213.333v426.667c0 117.82 95.513 213.333 213.333 213.333h426.667c117.82 0 213.333-95.514 213.333-213.333v-426.667c0-117.821-95.514-213.333-213.333-213.333z",
+          "M682.667 485.111c5.265 35.511-0.802 71.774-17.335 103.637s-42.692 57.702-74.756 73.843c-32.064 16.137-68.403 21.756-103.846 16.051-35.439-5.7-68.181-22.434-93.564-47.817s-42.117-58.125-47.82-93.568c-5.703-35.439-0.085-71.778 16.054-103.842 16.139-32.065 41.978-58.225 73.84-74.758 31.863-16.533 68.13-22.598 103.642-17.333 36.22 5.371 69.751 22.249 95.642 48.141 25.894 25.892 42.773 59.425 48.145 95.645z",
+          "M746.667 277.333h0.427"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          },
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          },
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "instagram"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        },
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        },
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        }
+      ],
+      "properties": {
+        "order": 4,
+        "id": 5,
+        "name": "instagram",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M0 512c0-282.624 229.376-512 512-512s512 229.376 512 512c0 282.624-229.376 512-512 512s-512-229.376-512-512zM256 563.2h512v-102.4h-512v102.4z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "minus_circle"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 5,
+        "id": 4,
+        "name": "minus-circle",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M541.923 73.143h-425.559c-44.052 0-79.792 36.857-79.792 82.286v713.143c0 45.429 35.74 82.286 79.792 82.286h425.559c44.050 0 79.792-36.857 79.792-82.286v-713.143c0-45.429-35.741-82.286-79.792-82.286zM408.934 839.6c0 16.629-11.97 28.972-26.598 28.972h-107.884c-13.133 0-25.102-12.343-25.102-27.429s11.969-27.429 26.597-27.429h106.388c14.629 0 26.598 12.343 26.598 25.885zM515.324 731.429h-372.363v-548.571h372.363v548.571z"
+        ],
+        "attrs": [],
+        "width": 658,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "mobile-screen"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 6,
+        "id": 3,
+        "name": "mobile-screen",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 3
+    },
+    {
+      "icon": {
+        "paths": [
+          "M0 512c0-282.624 229.376-512 512-512s512 229.376 512 512c0 282.624-229.376 512-512 512s-512-229.376-512-512zM563.2 563.2h204.8v-102.4h-204.8v-204.8h-102.4v204.8h-204.8v102.4h204.8v204.8h102.4v-204.8z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "plus_circle"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 7,
+        "id": 2,
+        "name": "plus-circle",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 4
+    },
+    {
+      "icon": {
+        "paths": [
+          "M981.333 128.429c-40.858 28.82-86.097 50.863-133.973 65.28-25.698-29.546-59.849-50.488-97.835-59.993s-77.973-7.114-114.556 6.849c-36.582 13.963-67.998 38.825-89.988 71.222-21.995 32.398-33.506 70.768-32.981 109.922v42.667c-74.982 1.944-149.279-14.685-216.277-48.408s-124.616-83.491-167.723-144.872c0 0-170.667 384.002 213.333 554.668-87.871 59.644-192.548 89.553-298.667 85.333 384 213.333 853.333 0 853.333-490.668-0.038-11.885-1.182-23.74-3.413-35.413 43.546-42.944 74.274-97.164 88.747-156.587v0z"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "twitter"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        }
+      ],
+      "properties": {
+        "order": 8,
+        "id": 1,
+        "name": "twitter",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 5
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
