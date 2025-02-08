@@ -807,3 +807,28 @@ img {
 }
 
 /* footer */
+
+.footer-for-container-box {
+  display: flex;
+}
+.footer-icons-list {
+  display: flex;
+}
+.footer-icons-item {
+}
+.footer-icons-link {
+  background-color: #4d8dff;
+}
+.footer-icon {
+  stroke: #740a76;
+  fill: transparent;
+}
+
+.footer-last-text {
+  display: block;
+  justify-self: center;
+}
+
+.footer-second-box {
+  display: flex;
+}
